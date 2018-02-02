@@ -11,9 +11,9 @@ li .nav-item {
     flex: 0 1 auto;
 }
 
-a.standout:hover { /* why is this applied to all items when active? */
+a.standout:hover { /* why is this applied to all items when active? might be a default. */ 
     color: tomato;
-}
+} 
 
 li.notice:hover {
     background-color: lawngreen;
