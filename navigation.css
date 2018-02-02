@@ -1,0 +1,24 @@
+ul { /* orig had ul .nav here but bullets remained until .nav was removed */
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+li .nav-item {
+    flex: 0 1 auto;
+}
+
+a.standout:hover { /* why is this applied to all items when active? */
+    color: tomato;
+}
+
+li.notice:hover {
+    background-color: lawngreen;
+}
+
+li.expand:active { /* this appears to work w flex. did not think it would. */
+    margin: 0 5px;
+}
